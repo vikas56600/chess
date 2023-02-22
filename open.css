@@ -1,0 +1,337 @@
+#slider 
+{
+    width:70%;
+    height:450px;
+    margin: auto;
+    background-image: url('IMG-20210101-WA0002.jpg');
+    background-size: 100% 100%;
+    animation: slider 9s infinite linear;
+}
+@keyframes slider{
+    0%{
+        background-image:url('./pic/logo.jpeg');
+    }
+    45%{
+        background-image:url('IMG-20210101-WA0003.jpg');
+    }
+    75%{
+        background-image:url('IMG-20210101-WA0001.jpg');
+    }
+}
+
+
+
+
+#head
+{
+    width:75%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+#head_back
+{
+    background-color: white;
+    color:white;
+}
+#updown
+{
+    display: none;
+}
+#input
+{
+    position:absolute;
+    width:100px;
+    border-color: #0000ff;
+    top:50px;
+    right:60px
+}
+#input1
+{
+    display:none;
+    width:70%;
+    position:absolute;
+    right:15%;
+}
+#search
+{
+    position: absolute; 
+    top:50px;
+    right:23px;
+    border: #0000ff;
+}
+#search1
+{
+    display:none;
+    position:absolute;
+    right:5%;
+    color:aliceblue
+
+}
+#bar
+{
+    background-color: #0000ff;
+    border: none;
+    font-size: 16px;
+    color:aliceblue;
+}
+
+#line
+{
+    background-color: #0000ff;
+    padding-top: 5px;
+    height:40px
+}
+.table
+{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+   
+    width:100%;
+    background-color: #0000ff;
+    height:40px
+}
+div.table ul li
+{
+    display:inline;
+    padding-left: 4rem;
+} 
+div.table ul{
+    text-align: center;
+}
+
+
+
+#red
+{
+    background-color: rgba(128, 128, 128, 0.356);
+    margin: auto;
+    position:relative;
+    top:451px;
+    height:130px;
+    box-shadow: 10px 10px gray;
+    
+}
+
+
+#icon
+{
+     margin-left: -5px;
+     margin-right:-5;
+     float:left;
+     width:20px;
+     height:20px;
+     background-color: transparent;
+     border-radius: 20px;
+
+}
+#rtext
+{
+    padding-left: 60px;
+    font-size: 28px;
+    color:rgb(92, 3, 3);
+    line-height: 1.4;
+}
+
+#img
+{
+    width:21.5rem;
+    height:310px;
+}
+#img1
+{
+    width:22rem; 
+    height:630px;
+}
+
+#table_pic
+{
+    position: relative;
+    top:500px;
+    width:50%;
+}
+
+#img2
+{
+    display:none;
+}
+
+#br
+{
+    display:none;
+}
+
+#iconbar
+{
+    display:none;
+}
+
+#text
+{
+    text-shadow: 10px 5px rgb(230, 225, 225) ;
+    background-color:rgba(252, 246, 246, 0.836);
+    font-size: 24px;
+    position:relative;
+    top:500px;
+    line-height: 1.8;
+    list-style:circle ;
+    font-style:normal;
+}
+#button
+{
+    background-color:transparent;
+    border:none;
+}
+
+@media only screen and (max-width:1024px)
+{
+    #head
+{
+    height:60px;
+    width:80%;
+}
+#updown
+{
+    display:block;
+    color:white;
+    height:20px;
+    background-color:white;
+}
+#head_back
+{
+    height:80px%;
+    background-color: white;;
+}
+    #input
+    {
+        opacity:0;
+        display:none;
+    }
+    #input1
+{
+    display:block;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    height: 25px;
+}
+    #search
+    {
+        display:none;
+        opacity: 0;
+    }
+
+    #search1
+{
+    display:block;
+    background-color: #0000ff;
+    border: none;
+    
+}
+.table
+{
+    display:none;
+
+}
+div.table.tab 
+{
+    width:100%;
+    background-color: blue;
+    padding-bottom: 700px;
+    display:block;
+    position: relative;
+    top:15%;
+    z-index: 9999;
+}
+div.table.tab ul li button
+{
+    width:80%;
+    
+}
+div.table.tab ul li 
+{
+    display:block;
+    line-height: 100px;
+    
+}
+div.table ul li  :hover
+{
+    background-color:gray;
+    text-shadow:3px 4px 1px #000;
+}
+#line
+{
+    padding-top: 30px;
+    height:100px;
+}
+#iconbar
+{
+    display:block;
+    color:aliceblue;
+    position: absolute;
+    left:5%;
+    background-color: #0000ff;
+    border: none;
+}
+
+#slider 
+{
+
+    width:100%;
+    height:250px;
+    animation: slider 9s infinite linear;
+}
+        #bar
+        {
+            font-size: 18px;
+        }
+        #rtext
+{
+    font-size: 22px;
+    color:rgb(46, 44, 44);
+}
+    #red
+    {
+        position:relative;
+        top:253px;
+        height:160px;
+        background-color: rgb(231, 213, 213);
+    }
+
+
+    #img
+    {
+        height:240px;
+        width:100%;
+    }
+
+    #none
+    {
+       display:none;
+    }
+    #table_pic
+{
+     width:100%;
+     top:280px;
+}
+    #img2
+    {
+        display:block;
+        width:100%;
+        height:400px;
+        position:relative;
+        top:280px;
+    }
+
+#br
+{
+    display:block;
+}
+
+#text
+{
+    font-size: 16px;
+    top:280px;
+}
+
+}
